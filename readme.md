@@ -33,8 +33,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
-![](./screenshot.jpg)
+![screenshot](https://github.com/littleangelx/Newsletter-Signup-FEM/assets/100070583/507567e9-8f88-4e07-9ab1-50e8adb42d99)
 
 
 ### Links

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+
+</head>
+
+<body>
+
+  <div class="card initial-state">
+    <section class="info-section">
+      <div class="top-section">
+        <div class="heading">
+          Stay updated!
+        </div>
+        <div class="description">
+          Join 60,000+ product managers receiving monthly updates on:
+        </div>
+        <div class="bullets">
+          <div class="bullet">
+            <img src="./assets/images/icon-list.svg" class="bullet-img">
+            Product discovery and building what matters
+          </div>
+          <div class="bullet">
+            <img src="./assets/images/icon-list.svg" class="bullet-img">
+            Measuring to ensure updates are a success
+          </div>
+          <div class="bullet">
+            <img src="./assets/images/icon-list.svg" class="bullet-img">
+            And much more!
+          </div>
+        </div>
+      </div>
+      <div class="cta-section">
+        <label for="email">Email address</label>
+        <div class="email-error hidden">Oops, wrong format</div>
+        <input id="email" type="text" placeholder="email@company.com">
+        <button class="subscribe">Subscribe to monthly newsletter</button>
+      </div>
+    </section>
+    <section class="image-section"></section>
+  </div>
+
+
+  <div class="card confirmed-state hidden">
+    <img class="icon" src="./assets/images/icon-success.svg">
+    <div class="confirmed-heading">
+      Thanks for subscribing!
+    </div>
+    <div class="confirmed-body">
+      A confirmation email has been sent to <span class="email-confirmed bold-text"></span>.
+      Please open it and click the button inside to confirm your subscription.    
+    </div>
+    <button class="dismiss">
+      Dismiss message
+    </button>
+  </div>
+
+
+
+
+ 
+  <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
